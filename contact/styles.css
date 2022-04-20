@@ -14,14 +14,45 @@ body {
     background-size: 100%;
 }
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+}
+
 .justify-center {
     justify-content: center;
+}
+.justify-right {
+    justify-content: right;
 }
 .flex {
     display:flex;
 }
 
- /***** Dropdown Button *****/
+.rotate90{
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/***** Dropdown Button *****/
 
     .dropbtn {
         background-color: indigo;
@@ -57,11 +88,10 @@ body {
         background-color: orchid;
     }
 
-    
 
-/* Funky */
+/* Funky Title */
 
-    .animate-character {
+ .animate-character {
         text-transform: uppercase;
         background-image: linear-gradient(
             -225deg,

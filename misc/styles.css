@@ -44,6 +44,7 @@ div.description {
 .flex {
     display:flex;
 }
+
 .rotate90{
     -webkit-transform:rotate(90deg);
     -moz-transform: rotate(90deg);
